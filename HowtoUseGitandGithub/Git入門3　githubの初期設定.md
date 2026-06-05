@@ -57,8 +57,8 @@ masterで初期ブランチが作られる可能性があるが、master/slave o
 Gitをインストールした直後や、新しい環境を構築した際に必ず行う設定です。**誰が変更したのか、履歴を残す＝commitした時の「名前」と「アドレス」を設定します。**  
 
 ```
-git config --[scope] user.name "name"
-git config --[scope] user.email "email"
+git config --scope user.name "name"
+git config --scope user.email "email"
 
 git config --global user.name "To Your Sea"
 git config --global user.email "iwltbtowccpos@gmail.com"
